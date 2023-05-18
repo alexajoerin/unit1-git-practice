@@ -118,13 +118,18 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
-
+git init
+git add .
+git status
+git commit -m "first commit"
 
 ### Step 5
-
+git remote add origin https://github.com/alexajoerin/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
-
+touch menu.txt
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
